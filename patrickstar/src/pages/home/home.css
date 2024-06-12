@@ -1,0 +1,55 @@
+.bg {
+    position: relative; /* 为伪元素定位提供上下文 */
+    background-image: url(https://picture.zeabur.app/contentBg.webp);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 1%;
+    overflow: hidden; /* 确保伪元素不溢出 */
+    margin-top: 5vh;
+}
+
+.bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.63); /* 半透明白色背景 */
+    border-radius: 1%; /* 与父元素一致 */
+}
+
+.content {    
+    width: 100%;
+    position: relative; /* 确保子元素在伪元素之上 */
+    padding: 5vw;
+}
+
+.title{
+    width: 100%;
+    font-size: xx-large;
+    float: right;
+}
+.avatar{
+    width: 30vw;
+    height: 30vw;
+    float: right;
+    border-radius: 1%;
+    background-image: url(https://pic.pngsucai.com/00/05/04/38ad6b300cdb8c49.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.avatar img{
+    z-index: 1;
+    width: 20vw;
+}
