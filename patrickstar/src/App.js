@@ -18,7 +18,6 @@ function App() {
         </div>
       </div>
         <Container>
-                  <img className='chIcon' src='https://picture.zeabur.app/patrickIcon.webp'></img>
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/discuss" element={<Discuss/>} />

@@ -1,6 +1,6 @@
 .bg {
     position: relative; /* 为伪元素定位提供上下文 */
-    background-image: url(https://picture.zeabur.app/contentBg.webp);
+    /* background-image: url(https://picture.zeabur.app/contentBg.webp); */
     min-height: 50vh;
     background-repeat: repeat-y;
     background-size: contain;
@@ -10,6 +10,7 @@
     /* align-items: center; */
     border-radius: 1%;
     overflow: hidden; /* 确保伪元素不溢出 */
+    margin-top: 2vh;
 }
 
 .bg::before {
@@ -56,3 +57,8 @@
     font-size: xx-large;
     color: #3a3a3a;
 }
+.chIcon{
+    width: 4vw;
+    margin-top: 2vh;
+  }
+  

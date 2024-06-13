@@ -1,11 +1,11 @@
-import '../discuss/discuss.css'
+import style from '../discuss/discuss.module.css'
 import { Container, Navbar, Nav } from 'react-bootstrap';
 function App(){
     return (
         <Container>
-            <div className='bg'>
-             <div className='content'>
-                <p className='title'>DiscussPage</p>
+            <div className={style.bg}>
+             <div className={style.content}>
+                <p className={style.title}>DiscussPage</p>
              </div>
             </div>
 

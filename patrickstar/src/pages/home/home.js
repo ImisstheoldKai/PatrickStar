@@ -1,13 +1,14 @@
-import '../home/home.css'
 import { Container, Navbar, Nav } from 'react-bootstrap';
+import style from '../home/home.module.css'
 function App(){
     return (
         <Container>
-            <div className='bg'>
-             <div className='content'>
-                <p className='classicLines'>“Is mayonnaise an instrument?”</p>
-                <p className='title'>Patrick Star</p>
-                <div className='avatar'>
+            <img className={style.chIcon} src='https://picture.zeabur.app/patrickIcon.webp'></img>
+            <div className={style.bg}>
+             <div className={style.content}>
+                <p className={style.classicLines}>“Is mayonnaise an instrument?”</p>
+                <p className={style.title}>Patrick Star</p>
+                <div className={style.avatar}>
                     <img src='https://picture.zeabur.app/pdx.jpg'></img>
                 </div>
                 <p>Patrick Star (born August 17) is one of the ten main characters of the animated series SpongeBob SquarePants,[16] and the main character of his own spin-off, The Patrick Star Show. He is SpongeBob's best friend as well as one of his two neighbors.
