@@ -2,15 +2,14 @@
     position: relative; /* 为伪元素定位提供上下文 */
     background-image: url(https://picture.zeabur.app/contentBg.webp);
     min-height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: contain;
     background-position: center;
     display: flex;
     justify-content: center;
     /* align-items: center; */
     border-radius: 1%;
     overflow: hidden; /* 确保伪元素不溢出 */
-    margin-top: 5vh;
 }
 
 .bg::before {
@@ -36,20 +35,24 @@
     float: right;
 }
 .avatar{
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     float: right;
     border-radius: 1%;
-    background-image: url(https://pic.pngsucai.com/00/05/04/38ad6b300cdb8c49.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: wheat;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2;
+    margin-left: 5vw;
 }
 .avatar img{
+    border-radius: 2%;
     z-index: 1;
-    width: 20vw;
+    width:  17vw;
+}
+.classicLines{
+    text-align: center;
+    font-size: xx-large;
+    color: #3a3a3a;
 }

@@ -5,6 +5,7 @@ function App(){
         <Container>
             <div className='bg'>
              <div className='content'>
+                <p className='classicLines'>“Is mayonnaise an instrument?”</p>
                 <p className='title'>Patrick Star</p>
                 <div className='avatar'>
                     <img src='https://picture.zeabur.app/pdx.jpg'></img>

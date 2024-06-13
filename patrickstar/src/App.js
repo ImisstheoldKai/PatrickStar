@@ -17,10 +17,13 @@ function App() {
         <Nav.Link className='link' href="/discuss">Discuss</Nav.Link>
         </div>
       </div>
+        <Container>
+                  <img className='chIcon' src='https://picture.zeabur.app/patrickIcon.webp'></img>
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/discuss" element={<Discuss/>} />
         </Routes>
+        </Container>
         </div>
     </Router>
   );

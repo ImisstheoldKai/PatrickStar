@@ -12,10 +12,15 @@
 }
 .page{
   background-color:#88ebbd ;
+  padding-bottom: 5vh;
 }
 .nav{
   position: absolute;
   bottom: 0;
   left: 12vw;
  
+}
+.chIcon{
+  width: 4vw;
+  margin-top: 2vh;
 }
